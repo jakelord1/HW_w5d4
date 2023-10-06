@@ -7,6 +7,12 @@ protected:
 public:
 	Herbivate() = default;
 	Herbivate(int w);
-	virtual void Eat();
+
+	int GetWeight() { return weight; };
+	void SetAlive(bool a) { alive = a; };
+	void Eat();
+};
+class Wildbeest : public Herbivate {
+
 };
 

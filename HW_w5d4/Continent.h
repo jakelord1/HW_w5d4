@@ -18,5 +18,5 @@ class North_America : Continent {
 
 };
 class Africa : Continent {
-
+	Africa(Herbivate* hers, Carnivore* cars) : Continent(hers, cars) {};
 };
